@@ -1,2 +1,10 @@
-<h1>Contacts#index</h1>
-<p>Find me in app/views/contacts/index.html.erb</p>
+<h1>Contacts</h1>
+
+
+<form action="/contacts/create_contact" method="get">
+  <input type="text" name="name" placeholder="First Name" required/>
+  <input type="text" name="last_name" placeholder="Last Name" required/>
+  <input type="email" name="email" placeholder="E-mail" required/>
+  <input type="text" name="address" placeholder="Street Adress" required/>
+  <input type="submit" value="Submit"/>
+</form>
